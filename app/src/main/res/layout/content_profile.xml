@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".profile"
+    tools:showIn="@layout/activity_profile">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="480dp"
+        android:contentDescription="@string/profile_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@mipmap/profile_pic" />
+
+    <EditText
+        android:id="@+id/profile_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="15sp"
+        android:text="@string/name_omas_ajiri"
+        android:textAlignment="center"
+        android:textColor="#5C5858"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/profile_info1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/track_android"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="@+id/profile_text"
+        app:layout_constraintStart_toStartOf="@+id/profile_text"
+        app:layout_constraintTop_toBottomOf="@+id/profile_text" />
+
+    <TextView
+        android:id="@+id/profile_info2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/country_nig"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="@+id/profile_info1"
+        app:layout_constraintStart_toStartOf="@+id/profile_info1"
+        app:layout_constraintTop_toBottomOf="@+id/profile_info1" />
+
+    <TextView
+        android:id="@+id/profile_info3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/email_jicin"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="@+id/profile_info2"
+        app:layout_constraintStart_toStartOf="@+id/profile_info2"
+        app:layout_constraintTop_toBottomOf="@+id/profile_info2" />
+
+    <TextView
+        android:id="@+id/profile_info4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/phone_number"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="@+id/profile_info3"
+        app:layout_constraintStart_toStartOf="@+id/profile_info3"
+        app:layout_constraintTop_toBottomOf="@+id/profile_info3" />
+
+    <TextView
+        android:id="@+id/profile_info5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/slack_username_jicin"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="@+id/profile_info4"
+        app:layout_constraintStart_toStartOf="@+id/profile_info4"
+        app:layout_constraintTop_toBottomOf="@+id/profile_info4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

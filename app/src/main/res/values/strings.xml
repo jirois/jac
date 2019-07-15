@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Alc Phase 1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about">ABOUT ALC</string>
+    <string name="title_activity_profile">My Profile</string>
+    <string name="slack_username_jicin">Slack Username: @jicin</string>
+    <string name="phone_number">Phone Number:2348034906770</string>
+    <string name="email_jicin">Email: jicintech@gmail.com</string>
+    <string name="country_nig">Country: Nigeria</string>
+    <string name="track_android">Track: Android</string>
+    <string name="name_omas_ajiri">Omas Ajiri</string>
+    <string name="profile_image">profile image</string>
+    <string name="welcome_text">Welcome to ALC 4.0</string>
+    <string name="about_alc">ABOUT ALC</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="title_activity_about_alc">ABOUT ALC</string>
+</resources>
